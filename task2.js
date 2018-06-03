@@ -19,7 +19,6 @@ var monthNames = [
 	"июля", "августа", "сентября",
 	"октября", "ноября", "декабря"
 ];
-
 //Получение аргументов
 var getDay = parseInt(process.argv[2]),
 	getMonth = process.argv[3],
