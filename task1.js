@@ -5,7 +5,6 @@ var num = process.argv[2],
 	curBase = process.argv[3],
 	newBase = process.argv[4],
 	resultNum;
-
 // преобразования данного числа в системе счисления curBase в систему счисления newBase
 resultNum = Number(parseInt(num, +curBase)).toString(+newBase);
 
