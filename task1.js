@@ -1,6 +1,7 @@
 /* Task 3 */
 /* Реализовать функцию перевода числа из одной системы счисления в другую. */
 /* Put your code here */
+
 // Получение аргументов
 var num = process.argv[2],
 	curBase = process.argv[3],
