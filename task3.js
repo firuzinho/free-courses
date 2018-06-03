@@ -6,3 +6,4 @@ var getDay = parseInt(process.argv[2]),
 	getYear = parseInt(process.argv[4]),
 	curMonthIndex,
 	numOfDays;
+
