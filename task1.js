@@ -27,5 +27,5 @@ var num = process.argv[2],
 	newBase = process.argv[4],
 	resultNum;
 
-resultNum = invertToDec(num, curBase).toString(+newBase);
+resultNum = invertToDec(num.toLowerCase(), curBase).toString(+newBase);
 process.stdout.write(resultNum);
